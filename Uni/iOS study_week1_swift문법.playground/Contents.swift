@@ -27,11 +27,11 @@ func multiply(a: Int, b: Int) -> Int {
 //print(multiply(a: 1, b: 2))
 
 /* 3. 이름짓는 규칙*/
-// 3.1 Lower Canel Case - 인스턴스 / 매소드 / 함수
-// - 시작은 소무자 나머지 단어의 시작은 대문자
+// 3.1 Lower Camel Case - 인스턴스 / 매소드 / 함수
+// - 시작은 소문자 나머지 단어의 시작은 대문자
 let viewContriller = UIViewController() //인스턴스를 생성
 
-// 3.2 Upper Canel Case - 구조 / 클래스 / 프로토콜
+// 3.2 Upper Camel Case - 구조 / 클래스 / 프로토콜
 // - 시작과 나머지 단어도 모두 대문자
 struct Person{
     let a:Int
@@ -51,13 +51,3 @@ class Operator {
 protocol Flyable {
     func fly()
 }
-
-
-
-
-
-
-
-
-
-
